@@ -1,0 +1,15 @@
+name: "Current Timestamp"
+description: "Get the current timestamp in your workflow"
+outputs:
+  date:
+    description: "Returns the current date ex. (02-10-2023)"
+  time:
+    description: "Returns the current time ex. (13.34.56.pm)"
+  tz:
+    description: "Returns the current timezone ex. (Asia/Kolkata)"
+runs:
+  using: "node16"
+  main: "main.js"
+branding:
+  icon: clock
+  color: gray-dark
